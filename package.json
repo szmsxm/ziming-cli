@@ -1,0 +1,26 @@
+{
+  "name": "ziming-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "zm": "./lib/index.cjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^4.0.0",
+    "commander": "^10.0.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.1",
+    "fs-extra": "^10.1.0",
+    "git-clone": "^0.2.0",
+    "ejs": "^3.1.8"
+  }
+}
